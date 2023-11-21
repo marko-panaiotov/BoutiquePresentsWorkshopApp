@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "LnnpB/UOSbBWyjZIAT2JFaU3yjT7KLHoNWqYjBMgCtasck6y8x/e8gBEzJ7c1Ygx2E8aCTSZyzp8IbB8Z2GBSg==",
+  "success": true,
+  "projectFilePath": "D:\\bat Marko\\University\\Thirth year 2023-2024\\Distributed Applications\\Course Project\\BoutiquePresentsWorkshop\\BoutiquePresentsWorkshop.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User1-PC\\.nuget\\packages\\bootstrap\\5.3.2\\bootstrap.5.3.2.nupkg.sha512",
+    "C:\\Users\\User1-PC\\.nuget\\packages\\font-awesome\\4.7.0\\font-awesome.4.7.0.nupkg.sha512",
+    "C:\\Users\\User1-PC\\.nuget\\packages\\font.awesome\\5.15.4\\font.awesome.5.15.4.nupkg.sha512",
+    "C:\\Users\\User1-PC\\.nuget\\packages\\fontawesome\\4.7.0\\fontawesome.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

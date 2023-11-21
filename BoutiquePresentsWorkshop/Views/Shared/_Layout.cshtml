@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - BoutiquePresentsWorkshop</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link href="~/css/mymainlayout.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/BoutiquePresentsWorkshop.styles.css" asp-append-version="true" />
+</head>
+<body>
+   
+ <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-6 col-xs-6">
+                <div class="logo">
+                    <h1><a href="#">Boutique<span>Presents</span>Workshop</a></h1>
+                    <p>My Shop</p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-sm-6 col-xs-6">
+                <div class="account">
+                    <ul>
+                        <li>
+                            <div class="hidden-xs">
+                                <h4><a>Call</a></h4>
+                                <p>345546546#####</p>
+                            </div>
+
+                            <div class="visible-xs">
+                            <p>dfgfdgdfgdfg#####</p>
+                           </div>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-md-12">
+                    <div class="nav-items d-flex justify-content-center">
+                        <ul class="nav nav-pills">
+                            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Location</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        
+    </div>
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - BoutiquePresentsWorkshop</p>
+        </footer>
+ </div>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

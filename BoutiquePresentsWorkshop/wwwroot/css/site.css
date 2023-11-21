@@ -1,0 +1,78 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+/*3. Logo Style*/
+
+.logo h1 a,
+.logo h2 a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out, text-decoration 0.5s ease-in-out;
+}
+
+.logo {
+    margin-bottom: 40px;
+}
+
+.account {
+    text-align: right;
+}
+
+    .logo h1 {
+        margin: 5px 0 5px;
+        text-align: left;
+        font-size: 32px;
+        line-height: 34px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: -1px;
+    }
+
+        .logo h1 span,
+        .logo h2 span {
+            font-weight: 300;
+        }
+
+.account ul {
+    list-style-type: none;
+    margin-left: -20px;
+    float: right;
+}
+
+
+/*nav menu style*/
+
+.nav-pills .nav-item a {
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+    padding: 10px 15px;
+    text-decoration: none;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+    .nav-pills .nav-item a:hover {
+        color: #fff;
+        background-color: #007bff;
+        border-color: #007bff; /* Border color on hover */
+    }
