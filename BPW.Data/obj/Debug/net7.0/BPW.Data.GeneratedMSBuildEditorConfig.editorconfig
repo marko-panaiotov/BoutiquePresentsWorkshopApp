@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BPW.Data
-build_property.ProjectDir = D:\bat Marko\University\Thirth year 2023-2024\Distributed Applications\Course Project\BPW.Data\
+build_property.ProjectDir = /Users/Marko/Documents/University/Third year 2023-2024/Distributed Applications/BoutiquePresentsWorkshopApp/BPW.Data/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
