@@ -1,0 +1,13 @@
+﻿@page
+@model LogoutModel
+@{
+    ViewData["Title"] = "Log out";
+}
+
+<header>
+    <h1>@ViewData["Title"]</h1>
+    <p>Успешно излезнахте от профила си.</p>
+    <button type="button" class="btn btn-warning">
+        <a class="nav-link text-dark" asp-area="Customer" asp-controller="Home" asp-action="Index">Към началната страница</a>
+    </button>
+</header>
